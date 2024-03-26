@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.product-page img {
+  width: 300px;
+}
+
+.product-page {
+  display: flex;
+}
+
+.product-page table {
+  width: 100%;
+}
+
+.product-page td {
+  width: 25%;
+}
+
+.product-page td:first-child {
+  padding-right: 20px; /* Add spacing between ProductList and Cart */
+}
